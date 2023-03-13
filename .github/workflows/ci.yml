@@ -22,8 +22,8 @@ jobs:
       if: '!cancelled()' # Run this step even when the tests fail. Skip if the workflow is cancelled.
       uses: Workshop64/buildpulse-action@master
       with:
-        account: 68192324 # Replace this value with your BuildPulse account ID
-        repository: 238705816 # Replace this value with your BuildPulse repository ID
+        account: 127290000
+        repository: 613307050
         path: spec/reports
         key: ${{ secrets.BUILDPULSE_ACCESS_KEY_ID }}
         secret: ${{ secrets.BUILDPULSE_SECRET_ACCESS_KEY }}
